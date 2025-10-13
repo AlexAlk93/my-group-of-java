@@ -17,7 +17,17 @@ public class PaymentSystem {
         // aici ar trebui sa fie un switch....
 
         // Alex adauga un sout cu Tranzactia efectuata + ultimele detalii
-
+       switch (alegere) {
+           case 1:
+               System.out.println("Cash");
+               break;
+           case 2:
+               System.out.println("Card");
+               break;
+           case 3:
+               System.out.println("Crypto");
+               break;
+       }
 
 
     }
