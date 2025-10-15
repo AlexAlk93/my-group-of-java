@@ -27,8 +27,13 @@ public class PaymentSystem {
            case 3:
                System.out.println("Crypto");
                break;
+           default:
+               // oprește execuția dacă alegerea e invalidă
+               System.out.println("Opțiune invalidă! Vă rugăm să selectați 1, 2 sau 3.");
+               return;
        }
-
+        System.out.println("Tranzacția a fost efectuată cu succes!");
+        System.out.println("Suma plătită: " + sumaIntrodusa + " RON");
 
     }
 }
